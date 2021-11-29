@@ -1,0 +1,82 @@
+h1 {
+    font-weight: 200;
+
+}
+html {
+    background-image: linear-gradient(to bottom right, #faa9c1, #73c7ba);
+}
+strong {
+    font-weight: bold;
+}
+.addedMessage {
+    font-size: 20px;
+}
+.shortTerm {
+    color: #146654;
+    font-size: 50px;
+
+}
+.shortTerm li {
+    list-style: none;
+    padding-bottom: 30px;
+
+}
+.shortTerm li::before{
+    content: "\00BB";
+
+}
+/*.shortTerm td{
+    font-size: 40px;
+    border: 1px solid #000; 
+    padding: 25px 70px 25px 70px;
+    shape-rendering: crispEdges;
+    border-top: 0.5px solid #000;
+}*/
+.linebreak, .linebreak2, .linebreak3 { 
+    width: 70%;
+    height: 5px; 
+    
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.linebreak {
+    background-color:  #abe0d5;
+}
+.linebreak2 {
+    background-color:  #9ae4da;
+}
+.linebreak3 {
+    background-color:  #ff81a7;
+}
+.animationRight {
+    animation: animationright 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    margin-left:30px;
+    font-size: 90px;
+}
+.animationLeft {
+    animation: animationright 2s forwards;
+    opacity: 0;
+    margin-left:-30px;
+    text-align: center;
+    font-size: 30px;
+    animation-delay: 3s;
+}
+p {
+    font-size: 40px;
+}
+@keyframes animationright {
+    0% {opacity:0;} 
+    30% {opacity:0;}
+    100% {opacity:1;} 
+        from { margin-left: 30px; }
+      to   { margin-left: 0px; } 
+  }
+  @keyframes animationleft {
+    0% {opacity:0;} 
+    30% {opacity:0;}
+    100% {opacity:1;} 
+        from { margin-left: -30px; }
+      to   { margin-left: 0px; } 
+  }
